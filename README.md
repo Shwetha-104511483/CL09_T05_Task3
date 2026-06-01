@@ -46,5 +46,5 @@ See [REPORT.md](REPORT.md) for the Group Task 3 write-up.
 - Distribution: PSI > 0.20 raises a warning
 - Model quality: retrain if F1-macro < 0.80
 
-### Models
-Random Forest (GridSearchCV) vs Logistic Regression baseline. RF selected (F1-macro 1.000 vs 0.675).
+### Preprocessing
+Label-encode categoricals, MinMax-scale numerics, derive BMI from Height/Weight.
