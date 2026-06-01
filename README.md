@@ -1,7 +1,7 @@
 # Retraining & Monitoring — Group Task 3
 
-Automated MLOps pipeline that retrains and monitors a 1D-CNN regression model
-whenever new data is pushed.
+Automated MLOps pipeline that retrains and monitors a Random Forest obesity-level
+classifier whenever new data is pushed.
 
 ## Triggers
 - **Push** to `data/**`, `train/**`, `src/**`, or `dvc.yaml`
