@@ -38,3 +38,10 @@ dvc.yaml                                # pipeline definition
 ```
 
 See [REPORT.md](REPORT.md) for the Group Task 3 write-up.
+
+## Monitoring thresholds
+
+- Numeric drift: KS-test, flag if p < 0.05 on >30% of features
+- Categorical drift: chi-squared, flag if p < 0.05
+- Distribution: PSI > 0.20 raises a warning
+- Model quality: retrain if F1-macro < 0.80
