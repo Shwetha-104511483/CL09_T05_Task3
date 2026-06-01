@@ -48,3 +48,6 @@ See [REPORT.md](REPORT.md) for the Group Task 3 write-up.
 
 ### Preprocessing
 Label-encode categoricals, MinMax-scale numerics, derive BMI from Height/Weight.
+
+### Models
+Random Forest (GridSearchCV) vs Logistic Regression baseline. RF selected (F1-macro 1.000 vs 0.675).
