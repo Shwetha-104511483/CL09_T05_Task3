@@ -45,3 +45,6 @@ See [REPORT.md](REPORT.md) for the Group Task 3 write-up.
 - Categorical drift: chi-squared, flag if p < 0.05
 - Distribution: PSI > 0.20 raises a warning
 - Model quality: retrain if F1-macro < 0.80
+
+### Preprocessing
+Label-encode categoricals, MinMax-scale numerics, derive BMI from Height/Weight.
