@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-08T06:43:08.951402",
+  "timestamp": "2026-06-15T07:20:36.787772",
   "drift_detected": false,
   "retrain_needed": false,
   "numeric_drift": {
@@ -79,8 +79,8 @@
       "drift": false
     },
     "FAVC": {
-      "chi2": 2.288031553690121,
-      "p_value": 0.1303751785179812,
+      "chi2": 2.2880315536901215,
+      "p_value": 0.13037517851798033,
       "drift": false
     },
     "CAEC": {
@@ -99,7 +99,7 @@
       "drift": false
     },
     "CALC": {
-      "chi2": 0.312202576324624,
+      "chi2": 0.31220257632462406,
       "p_value": 0.9577174044042995,
       "drift": false
     },
